@@ -6,6 +6,21 @@ Small Python helper project for safely exploring and reading your own 1KOMMA5 / 
 
 This project is intentionally monitoring-only. It does not include inverter control, battery control, export-limit changes, configuration updates, device management, or automation actions.
 
+## Automatic authentication: review-only draft
+
+The opt-in, account-shared authentication implementation and its synthetic
+tests are documented in [automatic authentication](docs/automatic-authentication.md).
+**LEGAL_BLOCKER:** proprietary signing assets are deliberately excluded; password
+mode is not deployable without an authorized signer. Existing copied-header
+entries remain manual and retain their identities. No automatic asset downloader
+or signature bypass is included.
+
+**AI development disclosure:** This contribution, including its implementation,
+tests, documentation and PR preparation, was created entirely through collaboration
+between OpenCode and OpenAI Codex under the user's direction. It has not been
+represented as independently human-authored and requires maintainer review before
+use or acceptance.
+
 ## Safety Rules
 
 The code blocks:
